@@ -23,7 +23,15 @@ return require('packer').startup(function(use)
         config = function() require("nvim-autopairs").setup {} end
     }
 
-    -- nvim-treesitter
+ 
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        }
+    }
+
+-- nvim-treesitter
     use {
 	    "nvim-treesitter/nvim-treesitter",
         run = function()
