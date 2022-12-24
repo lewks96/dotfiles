@@ -1,7 +1,8 @@
 local nnoremap = require("lewks96.keymap").nnoremap
 
 nnoremap("<leader>fv", "<cmd>Ex<CR>")
-nnoremap("<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr>");
+nnoremap("<leader>ff", "<cmd>NvimTreeToggle<CR>");
+nnoremap("<leader>fs", "<cmd>lua require('telescope.builtin').find_files()<cr>");
 nnoremap("<leader>gh", "gg_")
 nnoremap("<leader>pm", "gg_")
 

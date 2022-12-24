@@ -1,3 +1,6 @@
+vim.g.loaded_netwr = 1
+vim.g.loaded_netwrPlugin = 1
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -41,3 +44,6 @@ vim.opt.shortmess:append("c")
 vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+-- empty setup using defaults
+require("nvim-tree").setup()
