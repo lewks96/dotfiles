@@ -45,5 +45,8 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
 
+-- vim.g.clang_format.detect_style_file = 1
+-- vim.g.clang_format.auto_format = 1
+
 -- empty setup using defaults
 require("nvim-tree").setup()

@@ -27,6 +27,11 @@ nnoremap('<leader>=', '<cmd>lua vim.lsp.buf.format()<CR>')
 nnoremap('<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
 nnoremap('<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
 
+nnoremap("<leader>F4", ":lua require'dap'.toggle_breakpoint()<CR>")
+nnoremap("<leader>F5", ":lua require'dap'.continue()<CR>")
+nnoremap("<leader>F8", ":lua require'dap'.step_over()<CR>")
+nnoremap("<leader>F7", ":lua require'dap'.step_into()<CR>")
+
 nnoremap("<leader>qq", ":quit<CR>")
 nnoremap("<F3>", ":write<CR>")
 nnoremap("<F8>", ":MarkdownPreview<CR>")
