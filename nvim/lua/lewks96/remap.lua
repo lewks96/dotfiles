@@ -6,8 +6,8 @@ nnoremap("<leader>fs", "<cmd>lua require('telescope.builtin').find_files()<cr>")
 nnoremap("<leader>gh", "gg_")
 nnoremap("<leader>pm", "gg_")
 
-nnoremap("<leader>mm", ":bnext<CR>")
-nnoremap("<leader>nn", ":bprev<CR>")
+nnoremap("<leader>0", ":bnext<CR>")
+nnoremap("<leader>9", ":bprev<CR>")
 nnoremap("<leader>b", "<C-o>")
 
 nnoremap('gD','<cmd>lua vim.lsp.buf.declaration()<CR>')
