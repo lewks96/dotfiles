@@ -36,6 +36,5 @@ nnoremap("<leader>qq", ":quit<CR>")
 nnoremap("<F3>", ":write<CR>")
 nnoremap("<F8>", ":MarkdownPreview<CR>")
 
-nnoremap("<F9>", ":terminal make clean && bear -- make<CR>")
-nnoremap("<F12>", ":terminal mkdir -p .tmp-build && cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -B .tmp-build -S . && cp .tmp-build/compile_commands.json . <CR>")
+nnoremap("<F9>", ":RustFmt<CR>")
 

@@ -47,7 +47,7 @@ return require('packer').startup(function(use)
 
     use('mfussenegger/nvim-dap')
     use('rhysd/vim-clang-format')
-
+    use("rust-lang/rust.vim")
     -- Auto-Bracket
     use {
         "windwp/nvim-autopairs",
